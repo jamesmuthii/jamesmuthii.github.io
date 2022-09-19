@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 92, 6);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.tireworld {
+    margin: 10px 25%;
+    background-color: beige;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+table {
+    padding: 20px;
+}
+
+td {
+    padding: 7px;
+}
+
+.submit-button {
+    text-align: center;
+}

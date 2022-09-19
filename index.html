@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Creation Form</title>
+</head>
+<body>
+    <div class="tireworld">
+        <form name="form" action="form_php.php" method="POST">
+            <table>
+                <tr>
+                    <td><label for="email">E-mail:*️⃣ </label></td>
+                    <td><input type="text" id="email" name="email" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="employee-name">Your Name:*️⃣ </label></td>
+                    <td><input type="text" id="employee-name" name="employee-name" required></td>
+                </tr>
+    
+                <tr>
+                    <td><label for="item-searched">Have you confirmed that this product does not exist?</label></td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <input type="radio" id="yes" name="search" value="yes">
+                        <label for="yes">Yes</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="no" name="search" value="no">
+                        <label for="no">No</label>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td><label for="full-item-name">Full Item Name:*️⃣ </label></td>
+                    <td><input type="text" id="full-item-name" required></td>
+                </tr>
+    
+                <tr>
+                    <td><label for="pattern">Pattern:*️⃣ </label></td>
+                    <td><input type="text" id="pattern" required></td>
+                </tr>
+    
+                <tr>
+                    <td><label for="ply">Ply: </label></td>
+                    <td><input type="text" id="ply"> </td>
+                </tr>
+    
+                <tr>
+                    <td><label for="speed-rating">Speed Rating: </label></td>
+                    <td><input type="text" id="speed-rating"></td>
+                </tr>
+    
+                <tr>
+                    <td><label for="product-type">Product Type:</label></td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <input type="radio" id="stock" name="type" value="stock">
+                        <label for="stock">Stock</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="Service" name="type" value="service">
+                        <label for="service">Service</label>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td><label for="manufacturer-code">Manufacturer Code: </label></td>
+                    <td><input type="text" id="manufacturer-code"></td>
+                </tr>
+    
+                <tr>
+                    <td><label for="item-brand">Item Brand:*️⃣ </label></td>
+                    <td><input type="text" id="item-brand" required></td>
+                </tr>
+    
+                <tr>
+                    <td><label for="supplier-name">Supplier Name:*️⃣ </label></td>
+                    <td><input type="text" id="supplier-name" required></td>
+                </tr>
+    
+                <tr>
+                    <td><label for="base-unit">Base Unit:*️⃣ </label></td>
+                    <td><input type="text" id="base-unit" required></td>
+                </tr>
+    
+                <tr>
+                    <td><label for="tread-depth">Tread Depth: </label></td>
+                    <td><input type="text" id="tread-depth"></td>
+                </tr>
+    
+                <tr>
+                    <td><label for="selling-price">Selling Price (without VAT):*️⃣ </label></td>
+                    <td><input type="text" id="selling-price" required></td>
+                </tr>
+    
+                <tr>
+                    <td><label for="none"></label>*️⃣ - Required field</td>
+                    <td class="submit-button"><input type="submit" value="SUBMIT"></td>
+                </tr>
+    
+            </table>
+        </form>
+    </div>
+</body>
+</html>
